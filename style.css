@@ -1,0 +1,875 @@
+body {
+  color: white;
+  background-color: #0b1d26;
+}
+
+.page {
+  position: relative;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/img/bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.navbar-brand,
+.footer-brand {
+  font-family: "Chronicle Display";
+}
+
+nav .nav-link,
+.follow-us,
+.scroll-down,
+.steps {
+  font-family: "Gilroy";
+  color: white;
+}
+
+.account {
+  font-family: "Gilroy";
+}
+
+.follow-us {
+  /* transform: rotate(90deg); */
+  writing-mode: vertical-rl;
+}
+
+.tagline {
+  color: #fbd784;
+  text-transform: uppercase;
+}
+
+.tagline::before {
+  content: "———";
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: 0px;
+}
+
+.main-heading {
+  font-family: "Chronicle Display";
+}
+
+.heading {
+  font-family: "Chronicle Display";
+}
+
+.steps {
+  border-right: 3px solid #ffffffaa;
+}
+
+.steps.active {
+  border-right: 3px solid white;
+}
+
+.step-text,
+.footer-text {
+  font-family: "Gilroy";
+}
+
+.read-more {
+  color: #fbd784;
+}
+
+#step-1,
+#step-2,
+#step-3 {
+  min-height: 100vh;
+}
+
+.step-no-left {
+  position: absolute;
+  font-family: "Gilroy";
+}
+
+.copyright {
+  font-family: "Gilroy";
+  color: #fff;
+  opacity: 50%;
+}
+
+.footer-nav-heading {
+  color: #fbd784;
+  font-family: "Gilroy";
+}
+
+footer .nav-link {
+  color: white !important;
+  font-family: "Gilroy";
+}
+
+/* Extra Small Devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Styles for extra small devices */
+  section#hero {
+    padding: 10px 5px;
+  }
+
+  nav .container-fluid {
+    position: relative;
+  }
+
+  nav .navbar-collapse {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    /* min-height: 100vh; */
+    background-color: #0b1d26;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  #hero .hero-heading {
+    /* margin-top: 10%;
+    margin-bottom: 70%; */
+    margin-top: 30%;
+  }
+
+  .main-heading {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .navbar-brand,
+  .footer-brand {
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 6px;
+  }
+
+  /* nav .nav-link,
+  .follow-us,
+  .scroll-down,
+  .steps {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.76px;
+  } */
+
+  .follow-us,
+  .scroll-down,
+  .steps {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18.76px;
+  }
+
+  /*.account {
+    font-size: 17px;
+    line-height: 20.55px;
+  }*/
+
+  .tagline {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 18.05px;
+    letter-spacing: 2px;
+  }
+
+  .tagline::before {
+    content: "——";
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 0px;
+  }
+
+  .step-text,
+  .footer-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  x section.content {
+    margin: 65% 2% 6% 2%;
+  }
+
+  #step-1,
+  #step-2,
+  #step-3 {
+    /* margin-bottom: 10%; */
+    /* margin: 5%; */
+    text-align: justify;
+  }
+
+  #step-1 .w-75, #step-2 .w-75, #step-3 .w-75 {
+    width: 85%!important;
+  }
+
+  #step-1 {
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/01.png"); */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(24, 24, 24, 0.5)), url("/img/01.png");
+    /* background-image: linear-gradient(360deg, #0b1d26 5.19%, #4b525d00 75.2%), url(/img/01.png); */
+    background-size: cover;
+    background-position: center;
+  }
+
+  #step-2 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(24, 24, 24, 0.5)), url("/img/02.png");
+    /* background-image: linear-gradient(360deg, #0b1d26 5.19%, #4b525d00 75.2%), url(/img/02.png); */
+    background-size: cover;
+    background-position: center;
+  }
+
+  #step-3 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(24, 24, 24, 0.5)), url("/img/03.png");
+    /* background-image: linear-gradient(360deg, #0b1d26 5.19%, #4b525d00 75.2%), url(/img/03.png); */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .step-no-left {
+    font-weight: 700;
+    /* font-size: 90px;
+    line-height: 90px; */
+    font-size: 80px;
+    line-height: 80px;
+    opacity: 40%;
+  }
+
+  .copyright {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .footer-nav-heading {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  footer .nav-link {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  #footer .container-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/* Small Devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Styles for small devices */
+  section#hero {
+    padding: 20px;
+  }
+
+  #hero .hero-heading {
+    /* margin-top: 15%; */
+    margin-top: 25%;
+    margin-bottom: 65%;
+  }
+
+  .main-heading {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 55px;
+  }
+
+  .heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .navbar-brand,
+  .footer-brand {
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 6px;
+  }
+
+  nav .nav-link,
+  .follow-us,
+  .scroll-down,
+  .steps {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .account {
+    font-size: 17px;
+    line-height: 20.55px;
+  }
+
+  .tagline {
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 4px;
+  }
+
+  .tagline::before {
+    content: "——";
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 0px;
+  }
+
+  .step-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .read-more {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .bi-arrow-right{
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+  }
+
+  .footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  section.content {
+    /* min-height: 1000px;
+    background-color: #eeeeee99;
+    margin: 45% 8% 6% 8%; */
+    margin: 25% 8% 6% 8%;
+  }
+
+  #step-1,
+  #step-2 {
+    margin-bottom: -10%;
+  }
+
+  .step-no-left {
+    top: 0%;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    opacity: 40%;
+  }
+
+  .copyright {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .footer-nav-heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  footer .nav-link {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+/* Medium Devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Styles for medium devices */
+  section#hero {
+    padding: 30px;
+  }
+
+  #hero .hero-heading {
+    /* margin-top: 15%; */
+    margin-top: 15%;
+    margin-bottom: 65%;
+  }
+
+  .main-heading {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 55px;
+  }
+
+  .heading {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 36px;
+  }
+
+  .navbar-brand,
+  .footer-brand {
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 6px;
+  }
+
+  nav .nav-link,
+  .follow-us,
+  .scroll-down,
+  .steps {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .account {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .tagline {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 4px;
+  }
+
+  .tagline::before {
+    content: "——";
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 0px;
+  }
+
+  .step-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .bi-arrow-right{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+  }
+
+  .footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  section.content {
+    /* min-height: 1000px;
+    background-color: #eeeeee99;
+    margin: 45% 8% 6% 8%; */
+    margin: 50% 10% 6% 10%;
+  }
+
+  /* #step-1,
+  #step-2,
+  #step-3 {
+    margin-bottom: 7%;
+  } */
+
+  .step-no-left {
+    top: 4%;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    opacity: 40%;
+  }
+
+  .copyright {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .footer-nav-heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  footer .nav-link {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+/* Large Devices (large desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Styles for large devices */
+  section#hero {
+    padding: 40px;
+  }
+
+  #hero .hero-heading {
+    /* margin-top: 15%; */
+    margin-top: 12%;
+    margin-bottom: 65%;
+  }
+
+  .main-heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 55px;
+  }
+
+  .heading {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 40px;
+  }
+
+  .navbar-brand,
+  .footer-brand {
+    font-size: 26px;
+    line-height: 22px;
+    letter-spacing: 6px;
+  }
+
+  nav .nav-link,
+  .follow-us,
+  .scroll-down,
+  .steps {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .account {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .tagline {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 6px;
+  }
+
+  .tagline::before {
+    content: "——";
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 0px;
+  }
+
+  #step-1, #step-2, #step-3{
+    margin-bottom: 60px;
+  }
+
+  .step-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .bi-arrow-right{
+    width: 18px;
+    height: 20px;
+    margin-left: 10px;
+  }
+
+  .footer-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  section.content {
+    /* min-height: 1000px;
+    background-color: #eeeeee99;
+    margin: 45% 8% 6% 8%; */
+    margin: 65% 10% 6% 10%;
+  }
+
+  /* #step-1,
+  #step-2,
+  #step-3 {
+    margin-bottom: 7%;
+  } */
+
+  .step-no-left {
+    top: 3%;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 140px;
+    opacity: 40%;
+  }
+
+  .copyright {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .footer-nav-heading {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  footer .nav-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+/* Extra Large Devices (larger desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+  /* Styles for extra large devices */
+  section#hero {
+    padding: 60px;
+  }
+
+  #hero .hero-heading {
+    /* margin-top: 15%; */
+    margin-top: 12%;
+    margin-bottom: 65%;
+  }
+
+  .main-heading {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 66px;
+  }
+
+  .heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .navbar-brand,
+  .footer-brand {
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: 6px;
+  }
+
+  nav .nav-link,
+  .follow-us,
+  .scroll-down,
+  .steps {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .account {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .tagline {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 6px;
+  }
+
+  .tagline::before {
+    content: "——";
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1.8em;
+    letter-spacing: 0px;
+  }
+
+  #step-1, #step-2, #step-3 {
+    margin-bottom: 12rem;
+  }
+
+  .step-text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .read-more {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .bi-arrow-right{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+
+  .footer-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  section.content {
+    /* min-height: 1000px;
+    background-color: #eeeeee99;
+    margin: 45% 8% 6% 8%; */
+    margin: 70% 10% 6% 10%;
+  }
+
+  /* #step-1,
+  #step-2,
+  #step-3 {
+    margin-bottom: 7%;
+  } */
+
+  .step-no-left {
+    top: 6%;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 200px;
+    opacity: 40%;
+  }
+
+  .copyright {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  /* #footer {
+    margin-top: 100px;
+  } */
+
+  .footer-nav-heading {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+  }
+
+  footer .nav-link {
+    font-size: 22px;
+    line-height: 24px;
+  }
+}
+
+/* 2K Devices (1920px and up) */
+@media (min-width: 1600px) and (max-width: 1920px) {
+  /* Styles for 2K devices */
+  section#hero {
+    padding: 60px 80px;
+  }
+
+  #hero .hero-heading {
+    margin-top: 10%;
+    margin-bottom: 100%;
+  }
+
+  .main-heading {
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+  }
+
+  .heading {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76.8px;
+  }
+
+  .navbar-brand,
+  .footer-brand {
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 6px;
+  }
+
+  nav .nav-link,
+  .follow-us,
+  .scroll-down,
+  .steps {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.76px;
+  }
+
+  .account {
+    font-size: 17px;
+    line-height: 20.55px;
+  }
+
+  .tagline {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22.05px;
+    letter-spacing: 6px;
+  }
+
+  .tagline::before {
+    content: "———";
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 0px;
+  }
+
+  .step-text,
+  .footer-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .read-more {
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .bi-arrow-right{
+    width: 26px;
+    height: 26px;
+    margin-left: 10px;
+  }
+
+  section.content {
+    /* min-height: 1000px;
+    background-color: #eeeeee99; */
+    margin: 65% 15% 6% 15%;
+  }
+
+  #step-1,
+  #step-2,
+  #step-3 {
+    margin-bottom: 7%;
+  }
+
+  .step-no-left {
+    top: 3%;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 240px;
+    opacity: 40%;
+  }
+
+  .copyright {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .footer-nav-heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  footer .nav-link {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+/* Larger Screens (1920px and above) */
+@media (min-width: 1920px) {
+  /* Styles for screens larger than 1920px */
+}
