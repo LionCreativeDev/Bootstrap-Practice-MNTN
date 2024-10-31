@@ -8,7 +8,7 @@ body {
   max-width: 1920px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(/img/bg.png);
+  background-image: url(/Bootstrap-Practice-MNTN/img/bg.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -207,23 +207,23 @@ footer .nav-link {
   }
 
   #step-1 {
-    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/01.png"); */
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(24, 24, 24, 0.5)), url("/img/01.png");
-    /* background-image: linear-gradient(360deg, #0b1d26 5.19%, #4b525d00 75.2%), url(/img/01.png); */
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Bootstrap-Practice-MNTN/img/01.png"); */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(24, 24, 24, 0.5)), url("/Bootstrap-Practice-MNTN/img/01.png");
+    /* background-image: linear-gradient(360deg, #0b1d26 5.19%, #4b525d00 75.2%), url(/Bootstrap-Practice-MNTN/img/01.png); */
     background-size: cover;
     background-position: center;
   }
 
   #step-2 {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(24, 24, 24, 0.5)), url("/img/02.png");
-    /* background-image: linear-gradient(360deg, #0b1d26 5.19%, #4b525d00 75.2%), url(/img/02.png); */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(24, 24, 24, 0.5)), url("/Bootstrap-Practice-MNTN/img/02.png");
+    /* background-image: linear-gradient(360deg, #0b1d26 5.19%, #4b525d00 75.2%), url(/Bootstrap-Practice-MNTN/img/02.png); */
     background-size: cover;
     background-position: center;
   }
 
   #step-3 {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(24, 24, 24, 0.5)), url("/img/03.png");
-    /* background-image: linear-gradient(360deg, #0b1d26 5.19%, #4b525d00 75.2%), url(/img/03.png); */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(24, 24, 24, 0.5)), url("/Bootstrap-Practice-MNTN/img/03.png");
+    /* background-image: linear-gradient(360deg, #0b1d26 5.19%, #4b525d00 75.2%), url(/Bootstrap-Practice-MNTN/img/03.png); */
     background-size: cover;
     background-position: center;
   }
